@@ -12,9 +12,10 @@ Infrared (IR) satellite images into high-fidelity colorized RGB images.
 2. 🔧 Data Preprocessing (IR simulation, normalization, tiling)
 3. 🧠 U-Net Model (7.7M parameters, skip connections)
 4. 🏋️ Training (100 epochs, L1 Loss, Adam optimizer)
-5. ✨ Enhancement Module (Denoise + CLAHE)
-6. 📊 Full Pipeline Dashboard (IR → Enhanced → RGB → Ground Truth)
+5. 🖼️ Results Visualization (IR vs Predicted vs Ground Truth)
+6. ✨ Enhancement Module (Denoise + CLAHE)
 7. 📈 Evaluation Metrics (PSNR + SSIM)
+8. 📊 Full Pipeline Dashboard (IR → Enhanced → RGB → Ground Truth)
 
 ## Results
 | Metric | Score    | Target  | Status   |
